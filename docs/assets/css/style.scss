@@ -1,0 +1,28 @@
+---
+---
+@import  "{{ site.theme }}";
+
+.inner {
+    max-width: 960px;
+}
+
+h1#header-1 {
+  border-bottom: 1px #AAAAAA solid;
+}
+
+h2#header-2 {
+  padding: 0;
+  border-bottom: 1px #AAAAAA dashed;
+  background: none;
+}
+
+pre {
+  box-shadow: none;
+  border-radius: 8px;
+ -moz-border-radius: 8px;
+ -webkit-border-radius: 8px;
+}
+
+pre.highlight {
+  background: #FFFFFF;
+}

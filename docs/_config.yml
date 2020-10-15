@@ -1,1 +1,10 @@
 theme: jekyll-theme-slate
+title: "思兼堂備忘録"
+description: "技術的なことから思いつきまであれこれ"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
