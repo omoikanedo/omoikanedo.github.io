@@ -7,6 +7,11 @@
     padding: 0px 10px 30px 10px !important;
 }
 
+#main_content {
+  background: #F8F8F8 !important;
+  padding: 10px 10px 30px 10px !important;
+}
+
 h1#header-1 {
   border-bottom: 1px #AAAAAA solid;
 }
@@ -25,12 +30,19 @@ pre {
 }
 
 pre.highlight {
-  padding: 0;
+  background: #373737;
+  padding: 10 10px;
+  margin: 0 -10px;
+  border-radius: 0;
 }
 
 pre.highlight > code {
-  background: #000000;
+  background: #373737;
   color: #FFFFFF;
+}
+
+code {
+  font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
 }
 
 /* Navigation */
@@ -60,6 +72,33 @@ nav li a {
   text-decoration: none;
   color: #FFFFFF;
   font-weight: bold;
+}
+
+// alart box
+div.alert {
+  padding: 10px;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+div.alert.success {
+  background-color: #dff0d8;
+  color: #3c763d;
+}
+
+div.alert.info {
+  background-color: #d9edf7;
+  color: #31708f;
+}
+
+div.alert.warn {
+  background-color: #fcf8e3;
+  color: #8a6d3b;
+}
+
+div.alert.danger {
+  background-color: #f2dede;
+  color: #a94442;
 }
 
 

@@ -131,3 +131,19 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+<div class="alert success">
+success message.
+</div>
+
+<div class="alert info">
+info message.
+</div>
+
+<div class="alert warn">
+warn message.
+</div>
+
+<div class="alert danger">
+danger message.
+</div>
