@@ -9,5 +9,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-      image: "/img/icon.png"
+      image:
+        path: /img/icon.png
 
