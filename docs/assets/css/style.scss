@@ -12,6 +12,10 @@
   padding: 10px 10px 30px 10px !important;
 }
 
+header.inner {
+  padding-bottom: 0px !important;
+}
+
 h1#header-1 {
   border-bottom: 1px #AAAAAA solid;
 }
@@ -54,9 +58,10 @@ nav {
 
 nav ul {
   text-align: right;
+  margin: 0 0 5px 0;
 }
 
-nav li {
+nav li.menu {
   width: 120px;
   height: 40px;
   text-align: center;
@@ -67,8 +72,21 @@ nav li {
   margin: 0 1px;
   border-radius: 0 0 5px 5px;
 }
+
+nav li.icon{
+  height: 40px;
+  font-size: 32px;
+  display: inline-block;
+  padding: 0 5px;
+}
  
 nav li a {
+  text-decoration: none;
+  color: #AAAAAA;
+  font-weight: bold;
+}
+
+nav li a:hover {
   text-decoration: none;
   color: #FFFFFF;
   font-weight: bold;
