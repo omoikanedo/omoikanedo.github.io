@@ -2,7 +2,7 @@ theme: jekyll-theme-slate
 title: "思兼堂備忘録"
 description: "技術的なことから思いつきまであれこれ"
 twitter:
-  username: omoikanedo
+  username: @omoikanedo
 defaults:
   -
     scope:
