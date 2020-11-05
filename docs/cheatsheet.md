@@ -150,6 +150,17 @@ warn message.
 danger message.
 </div>
 
+## badges
+
+<span class="badges success">success</span> badges
+
+<span class="badges info">info</span> badges
+
+<span class="badges warn">warn</span> badges
+
+<span class="badges danger">danger</span> badges
+
+
 ## fontawesome
 
 |text	|code	|solid	|reguler	|bland	|
