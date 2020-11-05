@@ -16,11 +16,11 @@ header.inner {
   padding-bottom: 0px !important;
 }
 
-h1#header-1 {
+#main_content>h1 {
   border-bottom: 1px #AAAAAA solid;
 }
 
-h2#header-2 {
+#main_content>h2 {
   padding: 0;
   border-bottom: 1px #AAAAAA dashed;
   background: none;
@@ -47,6 +47,21 @@ pre.highlight > code {
 
 code {
   font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
+code.tag {
+  box-shadow: none;
+  background-color: #AAAAAA;
+  color: #F8F8F8;
+  border-radius: 4px;
+}
+
+.post-meta {
+  color: #777777;
+}
+
+ul.task-list {
+  list-style: none !important;
 }
 
 /* Navigation */

@@ -11,6 +11,9 @@ layout: default
   {% for post in site.categories[name] %}
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {% for tag in post.tags %}
+        <code class="tag">{{ tag }}</code>
+      {% endfor %}
       - <span class="post-date">{{ post.date | date: "%Y.%m.%d" }}</span>
     </li>
   {% endfor %}
