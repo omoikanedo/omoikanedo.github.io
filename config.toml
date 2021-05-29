@@ -1,0 +1,77 @@
+baseURL = "https://omoikanedo.github.io/"
+languageCode = "ja"
+title = "思兼堂"
+theme = "mainroad"
+
+#[Author] # authorbox で使用されている
+#  name = "omoikanedo"
+#  bio = " "
+
+[Params]
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
+  copyright = "omoikanedo" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = true # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = false # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "about", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  highlightColor = "#30638e" # Deprecated in favor of .Site.Params.style.vars.highlightColor
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.style.vars]
+  highlightColor = "#30638e" # Override highlight color
+
+  # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+[Params.logo]
+  image = "img/placeholder.png" # Logo image. Path relative to "static"
+  title = "思兼堂" # Logo title, otherwise will use site title
+  subtitle = "技術やら、気付きの備忘録" # Logo subtitle
+
+[Params.sidebar]
+  home = false # Configure layout for home page
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  # alternatively "ddg-search" can be used, to search via DuckDuckGo
+  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = false # Enable counter for each category in "Categories" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  twitter = "omoikanedo"
+  github = "omoikanedo"
+  email = "omoikanedoh@gmail.com"
+
+# メインメニュー
+[[Menus.main]]
+  Name = "Home"
+  URL = "/"
+  weight = 1
+[[Menus.main]]
+  Name = "POSTS"
+  URL = "/post/"
+  weight = 2
+[[Menus.main]]
+  Name = "ABOUT"
+  URL = "/about/"
+  weight = 
