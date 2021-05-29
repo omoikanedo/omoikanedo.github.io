@@ -4,6 +4,7 @@ title = "思兼堂"
 theme = "mainroad"
 publishDir = "docs"
 canonifyurls = true
+contentDir = "content"
 
 #[Author] # authorbox で使用されている
 #  name = "omoikanedo"
