@@ -2,6 +2,8 @@ baseURL = "https://omoikanedo.github.io/"
 languageCode = "ja"
 title = "思兼堂"
 theme = "mainroad"
+publishDir = "docs"
+canonifyurls = true
 
 #[Author] # authorbox で使用されている
 #  name = "omoikanedo"
@@ -74,4 +76,4 @@ theme = "mainroad"
 [[Menus.main]]
   Name = "ABOUT"
   URL = "/about/"
-  weight = 
+  weight = 3
