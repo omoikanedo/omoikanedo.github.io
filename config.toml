@@ -1,80 +1,81 @@
-baseURL = "https://omoikanedo.github.io/"
-languageCode = "ja"
+baseurl = "/"
 title = "思兼堂"
+languageCode = "ja-JP"
+paginate = "10" # Number of posts per page
 theme = "mainroad"
-publishDir = "docs"
-canonifyurls = true
-contentDir = "content"
+publishDir = "docs" # Where to output the build
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
-#[Author] # authorbox で使用されている
-#  name = "omoikanedo"
-#  bio = " "
+[Author]
+  name = "omoikanedo"
+  bio = "Computer and Security Engineer."
+  avatar = "img/avatar.png"
 
 [Params]
-  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "John Doe's Personal blog about everything" # Site description. Used in meta description
-  copyright = "omoikanedo" # Footer copyright holder, otherwise will use site title
-  opengraph = true # Enable OpenGraph if true
-  schema = true # Enable Schema
-  twitter_cards = true # Enable Twitter Cards if true
+  description = "omoikanedo's Personal blog" # Description of your site
+  opengraph = true
+  twitter_cards = true
+  images = ["img/placeholder.png"]
   readmore = false # Show "Read more" button in list if true
-  authorbox = false # Show authorbox at bottom of pages if true
-  toc = true # Enable Table of Contents
-  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
-  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
-  mainSections = ["post", "about", ""] # Specify section pages to show on home page and the "Recent articles" widget
-  dateformat = "2006-01-02" # Change the format of dates
-  mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
-  highlightColor = "#30638e" # Deprecated in favor of .Site.Params.style.vars.highlightColor
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  customJS = ["js/custom.js"] # Include custom JS files
-
-[Params.style.vars]
-  highlightColor = "#30638e" # Override highlight color
-
-  # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
-  # Take care of different quotes OR escaping symbols in these params if necessary
-  fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
-  fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+  authorbox = false
+  pager = true
+  dateformat = "2006.01.02 15:04:05" # Change the format of dates
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["post"]
+  highlightColor = "#30638e"
+  customCSS = ["/css/custom.css","/css/all.min.css","/css/fontawesome.min.css","/css/blands.min.css","/css/solid.min.css"]
 
 [Params.logo]
   image = "img/placeholder.png" # Logo image. Path relative to "static"
   title = "思兼堂" # Logo title, otherwise will use site title
-  subtitle = "技術やら、気付きの備忘録" # Logo subtitle
+  subtitle = "Memorandum on Computers, Security, and Other Stuff" # Logo subtitle
 
 [Params.sidebar]
-  home = false # Configure layout for home page
-  list = "right"  # Configure layout for list pages
+  home = false   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
-  # alternatively "ddg-search" can be used, to search via DuckDuckGo
-  # widgets = ["ddg-search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = ["search", "recent", "categories", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  categories_counter = false # Enable counter for each category in "Categories" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
 
 [Params.widgets.social]
   # Enable parts of social widget
+  #   facebook = "username"
   twitter = "omoikanedo"
+  #   instagram = "username"
+  #   linkedin = "username"
+  #   telegram = "username"
   github = "omoikanedo"
-  email = "omoikanedoh@gmail.com"
+  #   gitlab = "username"
+  #   bitbucket = "username"
 
-# メインメニュー
-[[Menus.main]]
-  Name = "Home"
-  URL = "/"
-  weight = 1
-[[Menus.main]]
-  Name = "POSTS"
-  URL = "/post/"
-  weight = 2
-[[Menus.main]]
-  Name = "ABOUT"
-  URL = "/about/"
-  weight = 3
+[menu]
+    [[menu.main]]
+        identifier = ""
+        name = "HOME"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        identifier = "posts"
+        name = "POSTS"
+        url = "/post"
+        weight = 2
+    [[menu.main]]
+        identifier = "note"
+        name = "NOTE"
+        url = "/note/list"
+        weight = 3
+    [[menu.main]]
+        identifier = "about"
+        name = "ABOUT"
+        url = "/about"
+        weight = 90
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

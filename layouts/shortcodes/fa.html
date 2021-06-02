@@ -1,0 +1,16 @@
+{{ if .Get 0}}
+  {{ $fa := .Get 0 }}
+  {{ $iconName := .Get 1 }}
+  {{ $color := "" }}
+  {{ if .Get 2}}
+    {{ $color = .Get 2}}
+  {{ end }}
+  {{ $text := "" }}
+  {{ if .Get 3}}
+    {{ $text = .Get 3}}
+{{ end }}
+  <i class="{{ $fa }} fa-{{ $iconName }} {{ $color }}"> {{ $text }} </i>
+{{ else }}
+  <span class="shortcode-error">Shortcode usage: &lbrace;&lbrace;&lt; awesome 
+  "far fa-smile-wink" &gt;&rbrace;&rbrace;</span>
+{{ end }}
