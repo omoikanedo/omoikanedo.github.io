@@ -1,0 +1,45 @@
+/* Notice */
+.notices {
+    padding: 6px;
+    margin: 0 0 4px 0;
+}
+
+.notices> p {
+    margin: 0px 0px !important; 
+}
+
+.note {
+    border-left: #30638e 6px solid;
+    background-color: #e8f0f7;
+}
+
+.ok {
+    border-left: #638e30 6px solid;
+    background-color: #f0f7e8;
+}
+
+.warn {
+    border-left: #8e8a30 6px solid;
+    background-color: #f7f6e8;
+}
+
+.danger {
+    border-left: #8e3034 6px solid;
+    background-color: #f7e8e8;
+}
+
+.co-note {
+    color: #30638e;
+}
+
+.co-ok {
+    color: #638e30;
+}
+
+.co-warn {
+    color: #8e8a30;
+}
+
+.co-danger {
+    color: #8e3034;
+}

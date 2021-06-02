@@ -2,67 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/tags/basic-elements/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/basic-elements/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
-    <loc>/tags/css/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/development/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/html/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+    <loc>/post/2021/06/02/</loc>
+    <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
     <loc>/post/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2018-04-16T00:00:00+00:00</lastmod>
+    <loc>/categories/site/</loc>
+    <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
-    <loc>/post/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>/note/list/</loc>
+    <lastmod>2021-06-02T14:01:11+09:00</lastmod>
+  </url><url>
+    <loc>/note/</loc>
+    <lastmod>2021-06-02T14:01:11+09:00</lastmod>
   </url><url>
     <loc>/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-31T17:31:50+09:00</lastmod>
   </url><url>
-    <loc>/post/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-05-31T10:52:40+09:00</lastmod>
   </url><url>
-    <loc>/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>/tags/</loc>
   </url>
 </urlset>
