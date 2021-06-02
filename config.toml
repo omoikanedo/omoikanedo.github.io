@@ -16,6 +16,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   description = "omoikanedo's Personal blog" # Description of your site
   opengraph = true
   twitter_cards = true
+  title = "思兼堂" # for twitter cerd (og:site_name)
   images = ["img/placeholder.png"]
   readmore = false # Show "Read more" button in list if true
   authorbox = false
