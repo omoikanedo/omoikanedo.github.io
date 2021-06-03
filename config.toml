@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://omoikanedo.github.io/"
 title = "思兼堂"
 languageCode = "ja-JP"
 paginate = "10" # Number of posts per page
