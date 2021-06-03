@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>https://omoikanedo.github.io/categories/</loc>
     <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
-    <loc>/post/2021/06/02/</loc>
+    <loc>https://omoikanedo.github.io/post/2021/06/02/</loc>
     <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
-    <loc>/post/</loc>
+    <loc>https://omoikanedo.github.io/post/</loc>
     <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
-    <loc>/categories/site/</loc>
+    <loc>https://omoikanedo.github.io/categories/site/</loc>
     <lastmod>2021-06-02T21:38:05+09:00</lastmod>
   </url><url>
-    <loc>/note/list/</loc>
+    <loc>https://omoikanedo.github.io/note/list/</loc>
     <lastmod>2021-06-02T14:01:11+09:00</lastmod>
   </url><url>
-    <loc>/note/</loc>
+    <loc>https://omoikanedo.github.io/note/</loc>
     <lastmod>2021-06-02T14:01:11+09:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://omoikanedo.github.io/about/</loc>
     <lastmod>2021-05-31T17:31:50+09:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://omoikanedo.github.io/</loc>
     <lastmod>2021-05-31T10:52:40+09:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://omoikanedo.github.io/tags/</loc>
   </url>
 </urlset>

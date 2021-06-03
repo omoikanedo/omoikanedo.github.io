@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 思兼堂</title>
-    <link>/post/</link>
+    <link>https://omoikanedo.github.io/post/</link>
     <description>Recent content in Posts on 思兼堂</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 02 Jun 2021 21:38:05 +0900</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Jun 2021 21:38:05 +0900</lastBuildDate><atom:link href="https://omoikanedo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoでサイトを作ってみました。</title>
-      <link>/post/2021/06/02/</link>
+      <link>https://omoikanedo.github.io/post/2021/06/02/</link>
       <pubDate>Wed, 02 Jun 2021 21:38:05 +0900</pubDate>
       
-      <guid>/post/2021/06/02/</guid>
+      <guid>https://omoikanedo.github.io/post/2021/06/02/</guid>
       <description>Hugoでサイトを作ってみました。
 静的サイトジェネレータをいくつか触ってみた結果、とりあえずHugoで作ってみることにしました。 まとまった情報がなく、特にTheme周りは未だに試行錯誤を続けている状態です。
 (とりあえずBuildできているので今のところ良しとしてます)</description>

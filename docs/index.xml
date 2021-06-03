@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on 思兼堂</title>
-    <link>/</link>
+    <link>https://omoikanedo.github.io/</link>
     <description>Recent content in Home on 思兼堂</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Mon, 31 May 2021 10:52:40 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 May 2021 10:52:40 +0900</lastBuildDate><atom:link href="https://omoikanedo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoでサイトを作ってみました。</title>
-      <link>/post/2021/06/02/</link>
+      <link>https://omoikanedo.github.io/post/2021/06/02/</link>
       <pubDate>Wed, 02 Jun 2021 21:38:05 +0900</pubDate>
       
-      <guid>/post/2021/06/02/</guid>
+      <guid>https://omoikanedo.github.io/post/2021/06/02/</guid>
       <description>Hugoでサイトを作ってみました。
 静的サイトジェネレータをいくつか触ってみた結果、とりあえずHugoで作ってみることにしました。 まとまった情報がなく、特にTheme周りは未だに試行錯誤を続けている状態です。
 (とりあえずBuildできているので今のところ良しとしてます)</description>
@@ -20,19 +20,19 @@
     
     <item>
       <title>Note</title>
-      <link>/note/list/</link>
+      <link>https://omoikanedo.github.io/note/list/</link>
       <pubDate>Wed, 02 Jun 2021 14:01:11 +0900</pubDate>
       
-      <guid>/note/list/</guid>
+      <guid>https://omoikanedo.github.io/note/list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://omoikanedo.github.io/about/</link>
       <pubDate>Mon, 31 May 2021 17:31:50 +0900</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://omoikanedo.github.io/about/</guid>
       <description>本サイトはおじさんが今どきの技術を追いかけつつ、衰えた記憶力を補う目的で開設しました。
  名前
 思兼堂 (omoikanedo) 年齢
