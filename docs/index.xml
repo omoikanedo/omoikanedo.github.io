@@ -8,6 +8,19 @@
     <language>ja-JP</language>
     <lastBuildDate>Mon, 31 May 2021 10:52:40 +0900</lastBuildDate><atom:link href="https://omoikanedo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CSS組版でいつも忘れるあれやこれや</title>
+      <link>https://omoikanedo.github.io/post/2021/07/03/</link>
+      <pubDate>Sat, 03 Jul 2021 13:59:51 +0900</pubDate>
+      
+      <guid>https://omoikanedo.github.io/post/2021/07/03/</guid>
+      <description>CSS組版で詰まったらとりあえず見ておきたい情報  vivliostyle/vivliostyle_doc - GitHub AH Formatter XML関連出版物の紹介
+PDFは全文無料で公開されており、特にhtml／CSSのソースが公開されている「CSSページ組版入門 第4版」は必読。  chrome で表示するルビのフォントサイズが大きい chromeの設定、フォントをカスタマイズ &amp;gt; 最小フォント サイズ の方がCSSより優先されるのが原因。 下図の通り、同設定を0にしておくとCSSで指定したフォントサイズで表示される。
+ページ番号の制御(表紙をカウントしない、目次専用のページを分ける等) 全て自動で、というわけにはいかない模様。専用のページカウンタを作るのだけど何ページ目からリセットするかはCSSにハードコードする必要がありそう。
+以下のサイトに詳しい
+CSS 組版やってみた！ - vivliostyle.github.io</description>
+    </item>
+    
+    <item>
       <title>Hugoでサイトを作ってみました。</title>
       <link>https://omoikanedo.github.io/post/2021/06/02/</link>
       <pubDate>Wed, 02 Jun 2021 21:38:05 +0900</pubDate>
@@ -45,8 +58,7 @@ ISO27000シリーズとか15000とか…  個人的な興味・趣味 サイト�
  CSS組版
 Markdown・CSS・vivliostyleあたり 世の中のあれやこれや
 情報セキュリティとか、災害関連とか、世の中で話題になってるあれやこれや 技術的なTips(備忘録)
-ちょっと使わないとすぐに忘れるので書き残しておく 落書き
-ブランドコンテンツを作ってみたい ゲーム 若かりし頃遊んだゲームから今遊んでるゲームまであれやこれや  </description>
+ちょっと使わないとすぐに忘れるので書き残しておく ゲーム 若かりし頃遊んだゲームから今遊んでるゲームまであれやこれや  </description>
     </item>
     
   </channel>

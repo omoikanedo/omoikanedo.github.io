@@ -130,7 +130,6 @@ textarea {
 	color: #fff;
 	white-space: pre-line;
 	background: #2a2a2a;
-	border-radius: 4px !important;;
 }
 
 .btn:hover {
@@ -752,7 +751,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .tags__link,
 .tags__link:hover {
 	display: block;
-	padding: 10px 10px;
+	padding: 10px 15px;
 }
 
 .tags__badge {

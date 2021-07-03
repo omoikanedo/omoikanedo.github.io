@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 思兼堂</title>
-    <link>https://omoikanedo.github.io/post/</link>
-    <description>Recent content in Posts on 思兼堂</description>
+    <title>css組版 on 思兼堂</title>
+    <link>https://omoikanedo.github.io/categories/css%E7%B5%84%E7%89%88/</link>
+    <description>Recent content in css組版 on 思兼堂</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 03 Jul 2021 13:59:51 +0900</lastBuildDate><atom:link href="https://omoikanedo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Jul 2021 13:59:51 +0900</lastBuildDate><atom:link href="https://omoikanedo.github.io/categories/css%E7%B5%84%E7%89%88/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS組版でいつも忘れるあれやこれや</title>
       <link>https://omoikanedo.github.io/post/2021/07/03/</link>
@@ -18,17 +18,6 @@ PDFは全文無料で公開されており、特にhtml／CSSのソースが公�
 ページ番号の制御(表紙をカウントしない、目次専用のページを分ける等) 全て自動で、というわけにはいかない模様。専用のページカウンタを作るのだけど何ページ目からリセットするかはCSSにハードコードする必要がありそう。
 以下のサイトに詳しい
 CSS 組版やってみた！ - vivliostyle.github.io</description>
-    </item>
-    
-    <item>
-      <title>Hugoでサイトを作ってみました。</title>
-      <link>https://omoikanedo.github.io/post/2021/06/02/</link>
-      <pubDate>Wed, 02 Jun 2021 21:38:05 +0900</pubDate>
-      
-      <guid>https://omoikanedo.github.io/post/2021/06/02/</guid>
-      <description>Hugoでサイトを作ってみました。
-静的サイトジェネレータをいくつか触ってみた結果、とりあえずHugoで作ってみることにしました。 まとまった情報がなく、特にTheme周りは未だに試行錯誤を続けている状態です。
-(とりあえずBuildできているので今のところ良しとしてます)</description>
     </item>
     
   </channel>
