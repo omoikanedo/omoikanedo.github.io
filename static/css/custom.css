@@ -1,3 +1,15 @@
+.content li {
+    list-style-type: disc;
+}
+
+dt, dd {
+    display: block;
+}
+
+div.highlight {
+    margin: 0px -25px !important;
+}
+
 /* Notice */
 .notices {
     padding: 6px;
