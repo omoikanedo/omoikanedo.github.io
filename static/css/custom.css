@@ -10,6 +10,28 @@ div.highlight {
     margin: 0px -25px !important;
 }
 
+/* progress */
+progress.pg {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    border: none !important;
+    background-color: #e8f0f7 !important;
+    border: 1px !important;
+    border-radius: 5px !important;
+    height: 10px;
+    width: 400px !important;
+}
+::-webkit-progress-bar {
+    background-color: #e8f0f7;
+}
+::-moz-progress-bar {
+    background-color: #30638e;
+}
+::-webkit-progress-value {
+    background-color: #30638e;
+}
+
 /* Notice */
 .notices {
     padding: 6px;

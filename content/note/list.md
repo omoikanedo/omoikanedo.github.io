@@ -6,3 +6,8 @@ pager: false
 sidebar: false
 ---
 
+## CSS組版関連
+
+### 基本情報
+
+- [用紙とピクセルのサイズ一覧](../paper_and_pixel_size)

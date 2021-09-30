@@ -13,7 +13,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   avatar = "img/avatar.png"
 
 [Params]
-  description = "omoikanedo's Personal blog" # Description of your site
+  description = "omoikanedo's Personal site" # Description of your site
   opengraph = true
   twitter_cards = true
   title = "思兼堂" # for twitter cerd (og:site_name)
@@ -30,7 +30,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Params.logo]
   image = "img/placeholder.png" # Logo image. Path relative to "static"
   title = "思兼堂" # Logo title, otherwise will use site title
-  subtitle = "Memorandum on Computers, Security, and Other Stuff" # Logo subtitle
+  subtitle = "Miscellaneous Creative Sites." # Logo subtitle
 
 [Params.sidebar]
   home = false   # Configure layout for home page

@@ -5,36 +5,37 @@ pager: false
 sidebar: false
 ---
 
-本サイトはおじさんが今どきの技術を追いかけつつ、衰えた記憶力を補う目的で開設しました。
+思兼堂は創作からIT技術まで、思いつくまま、想像するまま創造活動をするサイトです。
 
-- **名前**  
-  思兼堂 (omoikanedo)
-- **年齢**  
-  おっさん
-- **仕事**  
-  システム企画/開発とか、セキュリティ系のコンサルティングとかいろいろ
+{{% notice note %}}
+<span class="fa-stack" style="vertical-align: top;"><i class="fas fa-circle fa-stack-2x" style="color:#30638e"></i><i class="fas fa-book-open fa-stack-1x fa-inverse"></i></span> **電子書籍の作成**  
+  
+CSS組版を利用した電子書籍の作成を行っています。
+{{% /notice %}}
 
-## 仕事
+{{% notice note %}}
+<span class="fa-stack" style="vertical-align: top;"><i class="fas fa-circle fa-stack-2x" style="color:#30638e"></i><i class="fas fa-lightbulb fa-stack-1x fa-inverse"></i></span> **IT関連Tips(備忘録)**  
+  
+IT関連技術に関する備忘録を書き残しています。
+{{% /notice %}}
 
-- **OS**  
-  Linux, Android, HP-UX
-- **開発言語**  
-  Java, C#, Python, JavaScript, Delphi, C
-- **DB**  
-  Oracle, SQLServer, LDAP, Hi-RDB, postgresql
-- **マネジメントシステム**  
-  ISO27000シリーズとか15000とか…
+{{% notice warn %}}
+<span class="fa-stack" style="vertical-align: top;"><i class="fas fa-circle fa-stack-2x" style="color:#8e8a30"></i><i class="fas fa-gamepad fa-stack-1x fa-inverse"></i></span> **ゲーム・創作**  
+  
+ゲーム関連コンテンツや創作コンテンツの公開をする予定です。
+{{% /notice %}}
 
-## 個人的な興味・趣味
+<br>
 
-サイト内で主に扱う(であろう)もの。思いつくたびに増えては消える。
+## {{< fa fas user-circle >}} Who am I?
 
-- **CSS組版**  
-  Markdown・CSS・vivliostyleあたり
-- **世の中のあれやこれや**  
-  情報セキュリティとか、災害関連とか、世の中で話題になってるあれやこれや
-- **技術的なTips(備忘録)**  
-  ちょっと使わないとすぐに忘れるので書き残しておく
-- **ゲーム**
-  若かりし頃遊んだゲームから今遊んでるゲームまであれやこれや
+### 思兼堂
 
+ファミコンとTRPGに青春を費やしたOldタイプのサラリーマン。
+
+サイバーパンクの世界に夢を求めてIT業界に身を置きながら、過去(のゲームコンテンツ)と現在(のIT技術)の融合を模索するおじさん。
+
+## {{< fa fas envelope-square >}} Contact
+
+ [{{< fa fab twitter-square fa-2x >}} @omoikanedo](https://twitter.com/omoikanedo)  
+ [{{< fa fab github-square fa-2x >}} omoikanedo](https://github.com/omoikanedo)
