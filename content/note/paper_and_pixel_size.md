@@ -10,7 +10,7 @@ toc: false
 thumbnail: 
 images: []
 sidebar: false
-draft: true
+draft: false
 ---
 
 |		|サイズ(mm)	|200dpi		|300dpi		|400dpi		|600dpi		|
