@@ -37,7 +37,7 @@ CSS 組版やってみた！ - vivliostyle.github.io</description>
       <pubDate>Wed, 02 Jun 2021 14:01:11 +0900</pubDate>
       
       <guid>https://omoikanedo.github.io/note/list/</guid>
-      <description></description>
+      <description>CSS組版関連 基本情報  用紙とピクセルのサイズ一覧  </description>
     </item>
     
     <item>
@@ -46,19 +46,17 @@ CSS 組版やってみた！ - vivliostyle.github.io</description>
       <pubDate>Mon, 31 May 2021 17:31:50 +0900</pubDate>
       
       <guid>https://omoikanedo.github.io/about/</guid>
-      <description>本サイトはおじさんが今どきの技術を追いかけつつ、衰えた記憶力を補う目的で開設しました。
- 名前
-思兼堂 (omoikanedo) 年齢
-おっさん 仕事
-システム企画/開発とか、セキュリティ系のコンサルティングとかいろいろ  仕事  OS
-Linux, Android, HP-UX 開発言語
-Java, C#, Python, JavaScript, Delphi, C DB
-Oracle, SQLServer, LDAP, Hi-RDB, postgresql マネジメントシステム
-ISO27000シリーズとか15000とか…  個人的な興味・趣味 サイト内で主に扱う(であろう)もの。思いつくたびに増えては消える。
- CSS組版
-Markdown・CSS・vivliostyleあたり 世の中のあれやこれや
-情報セキュリティとか、災害関連とか、世の中で話題になってるあれやこれや 技術的なTips(備忘録)
-ちょっと使わないとすぐに忘れるので書き残しておく ゲーム 若かりし頃遊んだゲームから今遊んでるゲームまであれやこれや  </description>
+      <description>思兼堂は創作からIT技術まで、思いつくまま、想像するまま創造活動をするサイトです。
+ 電子書籍の作成
+CSS組版を利用した電子書籍の作成を行っています。
+  IT関連Tips(備忘録)
+IT関連技術に関する備忘録を書き残しています。
+  ゲーム・創作
+ゲーム関連コンテンツや創作コンテンツの公開をする予定です。
+ Who am I? 思兼堂 ファミコンとTRPGに青春を費やしたOldタイプのサラリーマン。
+サイバーパンクの世界に夢を求めてIT業界に身を置きながら、過去(のゲームコンテンツ)と現在(のIT技術)の融合を模索するおじさん。
+Contact @omoikanedo
+omoikanedo</description>
     </item>
     
   </channel>
