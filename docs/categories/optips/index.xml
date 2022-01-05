@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpTips on 思兼堂</title>
+    <link>https://omoikanedo.github.io/categories/optips/</link>
+    <description>Recent content in OpTips on 思兼堂</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-JP</language>
+    <lastBuildDate>Wed, 05 Jan 2022 19:42:12 +0900</lastBuildDate><atom:link href="https://omoikanedo.github.io/categories/optips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WindowsServer2016の役割と機能の一覧を確認する</title>
+      <link>https://omoikanedo.github.io/post/2022/01/05/</link>
+      <pubDate>Wed, 05 Jan 2022 19:42:12 +0900</pubDate>
+      
+      <guid>https://omoikanedo.github.io/post/2022/01/05/</guid>
+      <description>WindowsServerの構築にあたって役割と機能の一覧を確認したり取得したい。取得したパラメータの再利用性も考慮した方法まとめ。</description>
+    </item>
+    
+  </channel>
+</rss>
