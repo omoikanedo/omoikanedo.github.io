@@ -6,9 +6,12 @@ categories:
 tags:
   -
 description: "add description"
-toc: false
 thumbnail: 
 images: []
+summary: 
+toc: false
+pager: true
+sidebar: true
 draft: true
 ---
 

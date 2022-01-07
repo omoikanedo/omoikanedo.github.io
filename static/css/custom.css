@@ -10,6 +10,17 @@ div.highlight {
     margin: 0px -25px !important;
 }
 
+/* list */
+.list__thumbnail img {
+    width: 100%;
+    max-width: 200px !important;
+}
+
+figure.post__thumbnail img {
+    width: 10% !important;
+    max-width: 200px !important;
+}
+
 /* progress */
 progress.pg {
     appearance: none !important;
