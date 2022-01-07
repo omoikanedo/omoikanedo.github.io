@@ -13,6 +13,7 @@ toc: false
 pager: true
 sidebar: true
 draft: true
+comments: false
 ---
 
 Add post here.

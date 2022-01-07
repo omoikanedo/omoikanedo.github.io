@@ -3,6 +3,7 @@ title: About
 date: 2021-05-31T17:31:50+09:00
 pager: false
 sidebar: false
+comments: false
 ---
 
 思兼堂は創作からIT技術まで、思いつくまま、想像するまま創造活動をするサイトです。
