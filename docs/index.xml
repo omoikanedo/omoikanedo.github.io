@@ -8,6 +8,15 @@
     <language>ja-JP</language>
     <lastBuildDate>Mon, 31 May 2021 10:52:40 +0900</lastBuildDate><atom:link href="https://omoikanedo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>GithubPagesを更新しようとしたら`fatal: No url found for submodule path &#39;テーマフォルダ&#39; in .gitmodules`</title>
+      <link>https://omoikanedo.github.io/post/2022/01/07/</link>
+      <pubDate>Fri, 07 Jan 2022 13:12:46 +0900</pubDate>
+      
+      <guid>https://omoikanedo.github.io/post/2022/01/07/</guid>
+      <description>サイトを更新しようとcommitしたものの、一向に更新されず。翌日までつけ置いてGithubを見てみるとBuildが失敗。原因はgit cloneで導入(git管理下でgit clone)したhugoテーマを変更した時に起きていた。サブモジュールやテーマファイルをgit cloneで追加した時に起きそうな事象なので対応方法をここに残す。</description>
+    </item>
+    
+    <item>
       <title>WindowsServer2016の役割と機能の一覧を確認する</title>
       <link>https://omoikanedo.github.io/post/2022/01/05/</link>
       <pubDate>Wed, 05 Jan 2022 19:42:12 +0900</pubDate>

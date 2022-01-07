@@ -651,6 +651,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .post__thumbnail img {
 	width: 100%;
+	max-width: 200px;
 }
 
 .content a,
@@ -882,7 +883,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .list__thumbnail img {
 	width: 100%;
-	max-width: 235px;
+	max-width: 200px;
 }
 
 .list__footer-readmore {
