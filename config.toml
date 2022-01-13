@@ -54,6 +54,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   #   gitlab = "username"
   #   bitbucket = "username"
 
+[Params.style.vars]
+fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, 'Liberation Mono', monospace"
+
 [menu]
     [[menu.main]]
         identifier = ""
