@@ -23,7 +23,7 @@ comments: false
 |`\a`		|ベル (警告) `C` `C#` `Windows`|
 |`\b`		|バックスペース|
 |`\f`		|フォーム フィード|
-|`\n`		|改行|
+|`\n`		|ラインフィード|
 |`\r`		|キャリッジ リターン|
 |`\t`		|水平タブ|
 |`\v`		|垂直タブ|
@@ -37,6 +37,19 @@ comments: false
 |`\xhh`	|16 進表記の ASCII 文字|
 |`\xhhhh`	|ワイド文字定数または Unicode 文字列リテラルで使用されている場合は、16 進表記の Unicode 文字。`Windows`|
 |`\uXXXX`	|4桁のXXXX(16進数)が表すUnicode文字 `C` `C#` `Java` `JavaScript`|
+
+### VB
+
+|エスケープシーケンス |意味 |
+|:---:|---|
+|`vbFormFeed`		|フォーム フィード|
+|`vbLf`	|ラインフィード|
+|`vbCr`	|キャリッジ リターン|
+|`vbCrLf`	|キャリッジリターンとラインフィード|
+|`vbNewLine`	|環境に応じた改行文字|
+|`vbTab`	|水平タブ|
+|`vbVerticalTab`	|垂直タブ|
+|`vbNullChar`	|NULL文字|
 
 ## HTMLで使うエスケープシーケンス
 
