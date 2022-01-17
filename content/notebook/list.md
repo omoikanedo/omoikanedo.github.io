@@ -12,7 +12,7 @@ summary:
 toc: false
 pager: false
 sidebar: false
-draft: true
+draft: false
 comments: false
 ---
 
