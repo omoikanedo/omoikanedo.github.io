@@ -12,8 +12,9 @@ summary:
 toc: false
 pager: true
 sidebar: true
-draft: true
+share: true
 comments: false
+draft: true
 ---
 
 Add post here.

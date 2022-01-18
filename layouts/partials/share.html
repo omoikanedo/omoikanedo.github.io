@@ -1,0 +1,21 @@
+{{ if eq .Params.share true}}
+<div class="sns-share">
+  <ul>
+    <li>
+      <a class="sns-share-btn sns-share-btn-fb" href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}&t={{ .Title }}" target="_blank" title="Facebook" rel="nofollow"><i class="fab fa-facebook-f"></i></a>
+    </li>
+    <li>
+      <a class="sns-share-btn sns-share-btn-tw" href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" target="_blank" title="Twitter" rel="nofollow"><i class="fab fa-twitter"></i></a>
+    </li>
+    <li>
+      <a class="sns-share-btn sns-share-btn-line" href="https://line.me/R/msg/text/?{{ .Title }}{{.Permalink }}" target="_blank" title="LINE" rel="nofollow">LINE</a>
+    </li>
+    <li>
+      <a class="sns-share-btn sns-share-btn-hb" href="https://b.hatena.ne.jp/add?mode=confirm&url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="hatena" rel="nofollow">B!</a>
+    </li>
+    <li>
+      <a class="sns-share-btn sns-share-btn-po" href="https://getpocket.com/edit?url={{ .Permalink }}&title={{ .Title }}" target="_blank" title="pocket" rel="nofollow"><i class="fab fa-get-pocket"></i></a>
+    </li>
+  </ul>
+</div>
+{{ end }}

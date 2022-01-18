@@ -25,7 +25,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["post"]
   highlightColor = "#30638e"
-  customCSS = ["/css/custom.css","/css/all.min.css","/css/fontawesome.min.css","/css/blands.min.css","/css/solid.min.css"]
+  customCSS = ["/css/custom.css","/css/all.min.css","/css/fontawesome.min.css","/css/blands.min.css","/css/solid.min.css","/css/share.css"]
 
 [Params.logo]
   image = "img/placeholder.png" # Logo image. Path relative to "static"
