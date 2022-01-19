@@ -74,6 +74,11 @@ fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, 'Liberation Mono', monospa
         url = "/note/list"
         weight = 3
     [[menu.main]]
+        identifier = "notebook"
+        name = "APPENDIX"
+        url = "/notebook/list"
+        weight = 4
+    [[menu.main]]
         identifier = "about"
         name = "ABOUT"
         url = "/about"
